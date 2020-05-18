@@ -12,20 +12,20 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 // storing the pages in an array.
   var pages = [
     PageViewModel(
-      title: "Title of first page",
+      title: "OH NO! I AM GETTING FAT",
       body:
-          "Here you can write the description of the page, to explain something...",
+          "Suffering from fitness issues this quarantine?",
       image: Center(child: Image.asset("assets/screen_1.png", height: 175.0)),
       decoration: const PageDecoration(
-        titleTextStyle: TextStyle(color: Colors.white, fontSize: 25),
+        titleTextStyle: TextStyle(color: Colors.white, fontSize: 25,fontWeight: FontWeight.w900),
         bodyTextStyle: TextStyle(color: Colors.white, fontSize: 18),
         pageColor: Color(0xFF192A56),
       ),
     ),
     PageViewModel(
-      title: "Title of first page",
+      title: "Not able to eat your favourite food?",
       body:
-          "Here you can write the description of the page, to explain something...",
+          "This app is right there for you!",
       image: Center(child: Image.asset("assets/screen2.png", height: 175.0)),
       decoration: const PageDecoration(
         titleTextStyle: TextStyle(
@@ -35,9 +35,9 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
       ),
     ),
     PageViewModel(
-      title: "Title of first page",
+      title: "Welcome to SoloFit",
       body:
-          "Here you can write the description of the page, to explain something...",
+          "This app contains a set of exercises to help you stay physically fit",
       image: Center(child: Image.asset("assets/screen3.png", height: 175.0)),
       decoration: const PageDecoration(
         bodyTextStyle: TextStyle(color: Colors.white, fontSize: 18),
